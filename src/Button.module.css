@@ -1,0 +1,20 @@
+.button {
+    height: 100px;
+    width: 195px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: chocolate;
+    border-radius: 20px;
+}
+.button:first-of-type {
+    margin-right: 10px;
+}
+.button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 20px black;
+}
+
+.button:disabled {
+    background-color: #f3ae7c
+}

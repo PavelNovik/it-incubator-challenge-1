@@ -1,55 +1,8 @@
-.App {
+body {
+  background-color: blanchedalmond;
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: blanchedalmond;
-  height: 100vh;
 }
-
-.counter {
-  margin-top: 100px;
-  width: 500px;
-  height: 450px;
-  border: 1px solid black;
-  border-radius: 20px;
-  background-color: grey;
-}
-.counter__display {
-  margin: 50px auto;
-  width: 400px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 20px;
-  background-color: white;
-  font-size: 100px;
-  font-weight: bold;
-  box-shadow: 0px 0px 63px 16px rgba(34, 60, 80, 0.2) inset;
-}
-
-button {
-  height: 100px;
-  width: 195px;
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
-  background-color: chocolate;
-  border-radius: 20px;
-}
-button:first-of-type {
-  margin-right: 10px;
-}
-button:hover {
-  cursor: pointer;
-  box-shadow: 5px 5px 20px black;
-}
-
-button:disabled {
-  background-color: #f3ae7c
-}
-
-.stop {
-  color: red;
+.App {
 }

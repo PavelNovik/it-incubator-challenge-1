@@ -1,13 +1,15 @@
 import React, {FC} from 'react';
+import s from './Display.module.css'
 
 type DisplayPropsType = {
     counter: number
+    stopCount: boolean
 }
-const Display: FC<DisplayPropsType> = ({counter}) => {
+const Display: FC<DisplayPropsType> = ({counter, stopCount}) => {
     return (
-        <div className={`counter__display ${counter === 5 ? "stop" : ''} `}>
+        <span className={s.display + ' ' + `${stopCount ? s.stop : ''}`}>
             {counter}
-        </div>
+        </span>
     );
 };
 

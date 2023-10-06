@@ -1,4 +1,5 @@
 import React, {FC} from 'react';
+import s from './Button.module.css'
 
 type ButtonPropsType = {
     isActive: boolean
@@ -7,7 +8,7 @@ type ButtonPropsType = {
 }
 const Button: FC<ButtonPropsType> = ({onClick, name, isActive}) => {
     return (
-        <button disabled={isActive} onClick={onClick}>
+        <button className={s.button} disabled={isActive} onClick={onClick}>
             {name}
         </button>
     );
